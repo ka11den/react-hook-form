@@ -1,0 +1,34 @@
+.login__form, .login__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  input {
+    padding: 1rem;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #F0F4F9;
+
+    &::active {
+      background: none;
+    }
+  }
+
+  button {
+    border-radius: 15px;
+    padding: 1rem;
+    color: #ffff;
+    background-color: #0E6AFF;
+  }
+
+  .login__input_err {
+    font-size: .7em;
+    text-align: start;
+    color: #ff0e0e;
+  }
+  .login__box_input_err {
+    color: #ff0e0e;
+    background-color: #ff0e0e46;
+  }
+}
+

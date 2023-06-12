@@ -1,0 +1,29 @@
+.container {
+  max-width: 1400px;
+  margin-inline: 1.5rem;
+
+  @media screen and (min-width: 1400px) {
+    margin: 0 auto;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 30rem;
+  }
+
+  .signin__img {
+    width: 800px;
+  }
+
+  .signin__container {
+    margin-top: 1.5rem;
+    background-color: #1111;
+    padding: 1rem;
+    border-radius: 15px;
+    @media screen and (min-width: 600px) {
+      grid-template-columns: repeat(2, 450px);
+      align-items: center;
+    }
+  }
+}
+

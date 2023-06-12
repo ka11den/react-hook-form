@@ -1,0 +1,39 @@
+.home__container {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+  @media screen and (min-width: 1000px) {
+    grid-template-columns: repeat(2, auto);
+  }  
+
+  .home__data {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 1.5rem;
+  }  
+
+  .home__desc {
+    color: rgb(175, 175, 175);
+  }
+
+  .home__btns {
+    display: flex;
+    gap: 1rem;
+
+    .home__btn {
+      padding: .8rem 3rem;
+      border-radius: 15px;
+      border: 1px solid transparent;
+      color: #fff;
+      background-color: #0E6AFF;
+      transition: all .3s;
+
+      &:hover {
+        color: #111;
+        background: none;
+        border: 1px solid #111;
+      }
+    }
+  }
+}
