@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
-- [Project architecture](#project-architecture-/-directory-structure)
+- [Project architecture](#project-architecture-directory-structure)
 - [Install project](#install-project)
 
 ## Technologies Used
