@@ -3,8 +3,7 @@
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
-- [Naming Convention](#naming-convention)
-- [Directory Structure](#directory-structure)
+- [Project architecture](#project-architecture-/-directory-structure)
 - [Install project](#install-project)
 
 ## Technologies Used
@@ -32,6 +31,6 @@ The architecture of the project was carried out according to the [Future Slice D
 
 ## Install project
 
-1. Clone repository `git` clone https://github.com/ka11den/react-hook-form.git
-2. Run `npm` to install project dependencies.
+1. Clone repository `git clone https://github.com/ka11den/react-hook-form.git`
+2. Run `npm i` install project dependencies.
 3. Run `npm run dev` to run dev server.
